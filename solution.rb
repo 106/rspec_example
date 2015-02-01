@@ -1,9 +1,5 @@
 def example_method arg
-  if arg == 10
-    20
-  elsif arg == 'hello'
-    'hi'
-  elsif arg.is_a? Hash
-    arg.keys
-  end
+  20 if arg == 10
+  'hi' if arg == 'hello'
+  arg.keys if arg.is_a? Hash  
 end
