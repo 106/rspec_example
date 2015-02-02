@@ -1,4 +1,3 @@
-#comment
 def example_method arg
   if arg == 10
     20
